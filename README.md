@@ -9,10 +9,6 @@ app = Flask(__name__)
 ```
 This is the basic structure of a Python file using Flask with 3 different webpages:
 ```python
-from flask import Flask
-
-app = Flask(__name__)
-
 @app.route("/")
 def index():
     return "Welcome to Engineering 89 DevOps team"
